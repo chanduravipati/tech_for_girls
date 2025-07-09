@@ -10,7 +10,7 @@ if (localStorage.getItem("submitted") === "true") {
 function shareOnWhatsApp() {
   if (clickCount >= MAX_CLICKS) return;
 
-  const websiteURL = "https://chanduravipati.github.io/tech_for_girls/";
+  const websiteURL = " https://chanduravipati.github.io/tech_for_girls/";
   const message = encodeURIComponent(
     "👋 Hey Buddy!\nJoin the *Tech For Girls* Community 💫\n📩 Register now here:\n" + websiteURL
   );
